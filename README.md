@@ -17,7 +17,7 @@
   * 
 
   Rise time and fall time
-  * 
+  * tr = t90 - t10
   
 ### import xschemrc file
 
