@@ -73,20 +73,9 @@ xschem
 ```
 * press Shift + i in xschem window to add new schematic.
 * insert the nfet from the library
-* <img src="images\nfet_test.png" alt="invertert"/>
-
-## cmos ngspice simulation
-* propogation delay
-  * time from 50% Vin to 50 % Vout
-* showing propogation delay has dependance on imput pulse
-  * 
-
-  Rise time and fall time
-  * tr = t90 - t10
-  
-### import xschemrc file
-
-##
+* <img src="images\nfet_test.png"/>
+* 
+# CMOS 
 To run xschem with skywater pdk 
 ````
  mkdir directory_name
@@ -95,3 +84,22 @@ To run xschem with skywater pdk
  xschem
 
 ````
+## CMOS schematic 
+  * <img src="images\inverter.png"/>
+
+## CMOS testbench
+*   * <img src="images\inverter_sch.png"/>
+
+
+## ngspice simulation
+* input and output voltage plot
+  * <img src="images\vin_vout.png"/>
+* propogation delay
+  * time from 50% Vin to 50 % Vout
+  * <img src="images\tpHL.png"/>
+  * showing propogation delay has dependance on imput pulse
+    * <img src="images\tpHL2.png"/>
+* Rise time and fall time
+  * tr = t90 - t10
+  * <img src="images\tr.png"/>
+
