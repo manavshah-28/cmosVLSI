@@ -18,7 +18,7 @@ lab=vin}
 N 50 0 80 -0 {
 lab=vout}
 C {sky130_fd_pr/nfet3_01v8.sym} 30 50 0 0 {name=M1
-W=1
+W=2
 L=0.15
 body=gnd
 nf=1
@@ -33,7 +33,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet3_01v8.sym} 30 -40 0 0 {name=M2
-W=2.5
+W=4
 L=0.15
 body=vdd
 nf=1
