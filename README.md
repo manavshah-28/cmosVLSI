@@ -1,7 +1,7 @@
 # CMOS using skywater 130 PDK
 * To design and complete layout of a cmos inverter using opensource vlsi tools and obtain various parameters of performance with graphs.
   
-<img src="images\inverter.png" alt="invertert" width="300"/><img src="images\inverter_sch.png" alt="Another Image" width="900"/>
+<img src="images\inverter.png" alt="invertert" width="400" height="500"/><img src="images\inverter_sch.png" alt="Another Image" width="800"  height="500"/>
 
 ## Workspace
 * setup shop in Windows Subsystems for Linux (WSL), [*ubuntu will also work*]
