@@ -73,7 +73,7 @@ xschem
 ```
 * press Shift + i in xschem window to add new schematic.
 * insert the nfet from the library
-![alt text](images\nfet_test.png.png)
+* ![alt text](images\nfet_test.png.png)
 ## design cmos schematic in xschem
 
 ## cmos ngspice simulation
