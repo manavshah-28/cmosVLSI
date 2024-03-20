@@ -74,7 +74,9 @@ xschem
 * press Shift + i in xschem window to add new schematic.
 * insert the nfet from the library
 * <img src="images\nfet_test.png"/>
-* 
+  
+_______________________________________________________________
+
 # CMOS 
 To run xschem with skywater pdk 
 ````
