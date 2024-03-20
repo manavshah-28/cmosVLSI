@@ -5,6 +5,8 @@ K {}
 V {}
 S {}
 E {}
+N 70 0 70 30 {
+lab=vout}
 C {inv_vtc.sym} -10 0 0 0 {name=x1}
 C {devices/vsource.sym} -160 -60 0 0 {name=vin value="PULSE(0 1.8 0 .3n .3n 3n 6.6n 5)" savecurrent=false}
 C {devices/vsource.sym} -100 -60 0 0 {name=vdd value=1.8 savecurrent=false}
@@ -23,3 +25,4 @@ C {devices/code_shown.sym} -310 120 0 0 {name=CD_Sim only_toplevel=false value="
 .tran .02n 10n
 .save all
 .end"}
+C {devices/parax_cap.sym} 70 40 0 0 {name=C1 gnd=0 value=4f m=1}

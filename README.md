@@ -104,4 +104,4 @@ To run xschem with skywater pdk
 * Rise time and fall time
   * tr = t90 - t10
   * <img src="images\tr.png"/>
-
+* load capacitiance decreases, circuit becomes faster
