@@ -106,7 +106,7 @@ To run xschem with skywater pdk
 
 [Documentation](https://skywater-pdk.readthedocs.io/en/main/) of SKYWATER PDK
 ```sh
-magic  -rcfile /usr/local/share/pdk/sky130A/libs.tech/magic/sky130A.magicrc
+magic  -rcfile /usr/local/share/pdk/sky130A/libs.tech/magic/sky130A.magicrc &
 ```
 ### Shortcuts 
 * zoom out : shift z
