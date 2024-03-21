@@ -105,3 +105,13 @@ To run xschem with skywater pdk
   * tr = t90 - t10
   * <img src="images\tr.png"/>
 * load capacitiance decreases, circuit becomes faster
+
+
+# Layout 
+
+[Documentation](https://skywater-pdk.readthedocs.io/en/main/) of SKYWATER PDK
+```
+magic  -rcfile /usr/local/share/pdk/sky130A/libs.tech/magic/sky130A.magicrc
+```
+zoom out : shift z
+zoom in  : shift z
