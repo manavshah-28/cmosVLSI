@@ -14,10 +14,7 @@
 
 ## [Setup](http://opencircuitdesign.com/)
 * open your terminal in an ubuntu device or wsl
-  ```
-  sudo apt update
-  sudo apt upgrade
-
+  ```sh
   ### xschem ###
   git clone https://github.com/StefanSchippers/xschem.git xschem
   cd xschem
@@ -61,10 +58,9 @@
   cd test_xschem_sky130
   cp /usr/local/share/pdk/sky130B/libs.tech/xschem/xschemrc .
   xschem
-
   ```
 ## Test nfet 
-```
+```sh
 # setup xschem with skywater pdk 130 
 mkdir test_nfet
 cd test_nfet
@@ -79,13 +75,12 @@ _______________________________________________________________
 
 # CMOS 
 To run xschem with skywater pdk 
-````
+```sh
  mkdir directory_name
  cd directory_name
  cp /usr/local/share/pdk/sky130B/libs.tech/xschem/xschemrc .
  xschem
-
-````
+```
 ## CMOS schematic 
   * <img src="images\inverter.png"/>
 
@@ -110,8 +105,9 @@ To run xschem with skywater pdk
 # Layout 
 
 [Documentation](https://skywater-pdk.readthedocs.io/en/main/) of SKYWATER PDK
-```
+```sh
 magic  -rcfile /usr/local/share/pdk/sky130A/libs.tech/magic/sky130A.magicrc
 ```
-zoom out : shift z
-zoom in  : shift z
+### Shortcuts 
+* zoom out : shift z
+* zoom in  : shift z
