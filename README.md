@@ -111,3 +111,14 @@ magic  -rcfile /usr/local/share/pdk/sky130A/libs.tech/magic/sky130A.magicrc &
 ### Shortcuts 
 * zoom out : shift z
 * zoom in  : shift z
+
+### tcl commands 
+```
+grid on
+grid 50nm 50nm
+snap user 50nm
+box size 0 0
+box position 0 0
+paint 'material'
+undo
+```
