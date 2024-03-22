@@ -104,7 +104,9 @@ To run xschem with skywater pdk
 
 # Layout 
 
-[Documentation](https://skywater-pdk.readthedocs.io/en/main/) of SKYWATER PDK
+[Visual](https://www.youtube.com/watch?v=oSrUsM0hoPs) representation of CMOS inverter.
+
+[Documentation](https://skywater-pdk.readthedocs.io/en/main/) of SKYWATER PDK.
 ```sh
 magic  -rcfile /usr/local/share/pdk/sky130A/libs.tech/magic/sky130A.magicrc &
 ```
