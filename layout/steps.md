@@ -47,5 +47,7 @@ paint li
 leave edge space and select another rectangle
 do paint ptapc
 
-// for selecting everything and move it, select an area and do
+// for selecting everything and move it, select an area by pressing a on keyboars and do
 move down 1
+
+// to see whole layout in one screen press v
