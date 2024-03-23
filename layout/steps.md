@@ -16,3 +16,8 @@ leav one row under the nwell and select 4 boxes center and use command paint ndi
 // change grid to 50nm 50nm to do this
 
 
+now select both sides of the pdiff area and paint li
+a single column will have to removed to remove the drc error li.3
+for that use erase li
+cntrl d will remove all layer so not using that
+
