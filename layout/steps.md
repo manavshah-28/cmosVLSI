@@ -35,3 +35,17 @@ then paint li
 paint ntapc(ntap connection)
 finally there is a different blue colour rectangle with cross on it at the top of the layout
 
+the drc found is solved as follows
+make the paint ntapc area smaller.
+
+now there are no drc
+
+
+on the lower side of the layout do paint ptap
+paint li
+
+leave edge space and select another rectangle
+do paint ptapc
+
+// for selecting everything and move it, select an area and do
+move down 1
