@@ -21,3 +21,17 @@ a single column will have to removed to remove the drc error li.3
 for that use erase li
 cntrl d will remove all layer so not using that
 
+// next paint pdc (p diffusion contact)
+select a rectangle bit smaller that pdiff and do paint pdc(a box with a cross in light blue appears)
+
+use c to copy to other side
+
+on the lower part, do paint ndc(ndiff contact)
+
+on the top side above the entrie layout, select a rectangle and do paint ndiff with a gap of 4 rows(small small cells)
+
+therefore first to paint ntap
+then paint li
+paint ntapc(ntap connection)
+finally there is a different blue colour rectangle with cross on it at the top of the layout
+
